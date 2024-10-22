@@ -29,3 +29,4 @@ The Task Manager application allows users to manage tasks efficiently. Users can
 
 # (Creators message)
 This is my first big project, Was working for 4-5 days because had to understand whole framework, not my best for sure, will continue working on this in future also.
+Also here is a detailed analysis on what I had learnt while developing this project: https://1drv.ms/w/s!At7xAEdUNop7gQ4RUTjPQ5kBjkTx?e=TIYdGO
