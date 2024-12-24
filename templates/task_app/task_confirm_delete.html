@@ -1,12 +1,14 @@
 {% extends "task_app/main.html" %}
-{% block  content %}
-<
-    
-a href= "{% url 'tasks' %}">  </a>
-<form method = "POST">
+{% block content %}
+
+<h1>Confirm Delete</h1>
+<form method="POST">
     {% csrf_token %}
-    <p>  Are you sure you want to delete the task "{{task}}" </p> 
-    <input type = "submit", value = Delete>
+    <p>Are you sure you want to delete the task "{{ task }}"?</p>
+    <button type="submit" style="background: #dc3545; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer;">
+        Delete
+    </button>
+    <a href="{% url 'tasks' %}" style="margin-left: 15px; color: #007bff;">Cancel</a>
 </form>
 
 {% endblock content %}
