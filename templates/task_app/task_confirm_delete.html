@@ -1,8 +1,6 @@
 {% extends "task_app/main.html" %}
 {% block  content %}
-<
-    
-a href= "{% url 'tasks' %}">  </a>
+<a href= "{% url 'tasks' %}">  </a>
 <form method = "POST">
     {% csrf_token %}
     <p>  Are you sure you want to delete the task "{{task}}" </p> 
