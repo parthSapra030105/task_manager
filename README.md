@@ -6,6 +6,9 @@ Developing a real-world Django application to assess Python skills and the abili
 ## Project Overview
 The Task Manager application allows users to manage tasks efficiently. Users can create, view, update, and delete tasks, categorize them, and set due dates.
 
+# Deployed link
+https://task-manager-6fvt.onrender.com
+
 ## Features
 - User Registration and Authentication:
   - Sign up, log in, and log out functionality.
